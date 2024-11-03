@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #000000;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.App-logo, img {
+  pointer-events: none;
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  animation: App-logo-spin infinite 20s linear;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-title {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  font-size: x-large;
+  min-width: 100px;
+}
+
+.App-content {
+  background-color: #eeffee;
+  min-height: 500px;
+  width: 100%;
+  top: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: black;
+}
+
+table, td, th {
+  border: 0px solid;
+  border-collapse: collapse;
+  border-color: black;
+  text-align: left;
+  padding-left: 5px;
+}
+
+#App-table {
+  background-color: #eeffee;
+  width: 100%;
+  min-height: 500px;
+  font-size: 12px;
+  color: black;
+  text-align: left;
+  padding-left: 5px;
+}
+
+.App-footer {
+  background-color: #000000;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: white;
+}
+
+.App-link {
+  color: white;
+}
+
+.midl {
+  width: 90%;
+  margin-left: 5%;
+  text-align: left;
+}
+
+.left {
+  width: 100px;
+  text-align: left;
+  vertical-align: top;
+}
+.rite {
+  width: 800px;
+  text-align: left;
+  vertical-align: top;
+}
+
+input[type=submit] {
+  width: 300px;
+  padding:5px 15px; 
+  background:#ffcc99; 
+  border:0 none;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; 
+}
